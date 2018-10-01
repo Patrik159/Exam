@@ -35,8 +35,6 @@ public class Main {
 
     public static boolean isSymmetric (ArrayList<ArrayList<Integer>> matrix) {
         boolean answer = true;
-        int len = matrix.size();
-        System.out.println(len);
         for (int i = 0; i < matrix.size(); i++) {
             for (int j = 0; j < matrix.size(); j++) {
                 if (matrix.get(i).get(j) != matrix.get(j).get(i) ) {
